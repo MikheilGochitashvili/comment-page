@@ -1,0 +1,139 @@
+@media only screen and (max-width: 700px) {
+    body
+    {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 100%;
+    }
+    .reply-outer-container
+    {
+        border-left: 1.5px solid rgb(223, 223, 223);;
+    }
+    .container
+    {
+        width: 100%;
+        gap: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .comment-section
+    {
+        gap: 13px;
+    }
+    .comment-container
+    {
+        width: 340px;
+        padding: 15px;
+        flex-direction: column-reverse;
+    }
+    .reply-inner-container
+    {
+        width: 100%;
+        gap: 12px;
+    }
+    .your-card-container
+    {
+        width: 326px;
+    }
+    .reply-card-container
+    {
+        width: 326px;
+    }
+    .reply-outer-container::before 
+    {
+        transform: translateX(0px);
+        margin-right: 12px;
+    }
+    .reply-container
+    {
+        display: none;
+    }
+    .mobile-reply
+    {
+        display: block;
+    }
+    #textarea
+    {
+        width: 300px;
+    }
+    #score-table
+    {
+        width: 93px;
+        height: 40px;
+        flex-direction: row;
+    }
+    .comment-right-section
+    {
+        margin: 0;
+    }
+    .comment-left-section
+    {
+        margin-top: 11px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mobile-reply
+    {
+        display: flex;
+        gap: 4px;
+        align-items: center;
+    }
+    .delete-content-main-container {
+        margin-top: 7px;
+        text-align: start;
+        width: 278px;
+    }
+    .delete-btn
+    {
+        font-size: 16px;
+        padding: 0px;
+        width: 135px;
+        height: 40px;
+    }
+    .cancel-btn
+    {
+        font-size: 16px;
+        padding: 0px;
+        width: 135px;
+        height: 40px;
+    }
+    .delete-content-btns {
+        margin-top: 15px;
+        display: flex;
+        gap: 14px;
+        justify-content: space-between;
+    }
+    .your-card-container
+    {
+        flex-direction: column-reverse;
+        padding: 15px;
+    }
+    .reply-card-container
+    {
+        flex-direction: column-reverse;
+        padding: 15px;
+    }
+    .reply-card-right-section
+    {
+        margin: 0;
+    }
+    .reply-card-left-section
+    {
+        margin-top: 11px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .your-card-left-section
+    {
+        margin-top: 11px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .changes-div
+    {
+        display: none;
+    }
+}

@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './css/styles.css'
+import './css/CommentCard.css'
+import './css/ReplyCard.css'
+import './css/YourCard.css'
+import './css/SendComment.css'
+import './css/Media.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

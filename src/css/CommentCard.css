@@ -1,0 +1,148 @@
+.comment-container
+{
+    width: 680px;
+    background: var(--White);
+    border-radius: 7px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.score-table
+{
+    height: 93px;
+    width: 40px;
+    border-radius: 6px;
+    background: var(--Very-light-gray);
+}
+.score-table
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+.score-table span
+{
+    color: var(--Moderate-blue);
+    font-weight: 700;
+    font-size: 15px;
+}
+.score-table div
+{
+    height: 31px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plus-container
+{
+    cursor: pointer;
+}
+.minus-container
+{
+    cursor: pointer;
+}
+.plus-container::before
+{
+    content: '';
+    width: 2px;
+    height: 12px;
+    background: var(--Light-grayish-blue);
+    transform: rotate(90deg); 
+    position: absolute;
+    transition: background 300ms;
+}
+.plus-container::after
+{
+    content: '';
+    width: 2px;
+    height: 12px;
+    background: var(--Light-grayish-blue);
+    position: absolute;
+    transition: background 340ms;
+}
+.plus-container:hover::after
+{
+    background: var(--Moderate-blue);
+}
+.plus-container:hover::before
+{
+    background: var(--Moderate-blue);
+}
+.minus-container::after
+{
+    content: '';
+    width: 2px;
+    height: 12px;
+    transform: rotate(90deg);
+    background: var(--Light-grayish-blue);
+    position: absolute;
+    transition: background 340ms;
+}
+.minus-container:hover::after
+{
+    background: var(--Moderate-blue);
+}
+.comment-right-section
+{
+    margin-left: 18px;
+}
+.right-section-header
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 34px;
+}
+.user-container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+.user-image
+{
+    width: 30px;
+}
+.user-username
+{
+    font-weight: 700;
+    color: var(--Dark-blue);
+}
+.createdAt
+{
+    font-size: 15px;
+    color: var(--Grayish-Blue);
+}
+.reply-span
+{
+    color: var(--Moderate-blue);
+    font-weight: 700;
+}
+.reply-container
+{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+    transition: 270ms;
+}
+.card-content
+{
+    margin-top: 9px;
+}
+.card-content span
+{
+    color: var(--Grayish-Blue);
+    text-align: start;
+}
+.reply-container:hover
+{
+    opacity: 0.5;
+}

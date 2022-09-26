@@ -1,0 +1,50 @@
+.profile
+{
+    width: 38px;
+}
+.send-btn
+{
+    padding: 13px 25px;
+    border-radius: 6px;
+    border: none;
+    background: var(--Moderate-blue);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    transition: 300ms;
+    cursor: pointer;
+    transition: 331ms;
+}
+.add-comment-input
+{
+    resize: none;
+    height: 90px;
+    width: 476px;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-size: 17px;
+    border: 1px solid var(--Light-gray);
+    transition: 410ms;
+}
+.add-comment-input:focus
+{
+    outline: none;
+}
+.add-comment-input:hover
+{
+    border: 1px solid var(--Moderate-blue);
+}
+#send-comment-container
+{
+    justify-content: space-between;
+}
+.send-btn:hover
+{
+    opacity: 0.7;
+}
+.add-comment-placeholder
+{
+    position: absolute;
+    transform: translateX(10px) translateY(7px)
+}

@@ -1,0 +1,132 @@
+.your-card-container
+{
+    background: var(--White);
+    border-radius: 7px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.your-card-icon
+{
+    padding: 2px 8px;
+    background: var(--Moderate-blue);
+    border-radius: 4px;
+    color: var(--White);
+    pointer-events: none;
+}
+.delete-container
+{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: 350ms;
+    cursor: pointer;
+}
+.delete-container:hover
+{
+    opacity: 0.6;
+}
+.delete-span
+{
+    color: var(--Soft-Red);
+    font-weight: 700;
+}
+.edit-container
+{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: 350ms;
+    cursor: pointer;
+}
+.edit-container:hover
+{
+    opacity: 0.6;
+}
+.edit-span
+{
+    color: var(--Moderate-blue);
+    font-weight: 700;
+}
+.changes-div
+{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.delete-card-container
+{
+    z-index: 1000;
+    position: fixed;
+    border-radius: 6px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: var(--White);
+    padding: 25px;
+    display: none;
+}
+.delete-content
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.delete-content-header
+{
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--Dark-blue);
+}
+.delete-content-main-container
+{
+    margin-top: 15px;
+    text-align: start;
+    width: 310px;
+}
+.delete-content-main
+{
+    color: var(--Grayish-Blue);
+}
+.delete-content-btns
+{
+    margin-top: 15px;
+    display: flex;
+    gap: 14px;
+}
+.cancel-btn
+{
+    padding: 13px 29px;
+    border-radius: 6px;
+    border: none;
+    background: var(--Grayish-Blue);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    transition: 300ms;
+    cursor: pointer;
+}
+.delete-btn
+{
+    padding: 13px 29px;
+    border-radius: 6px;
+    border: none;
+    background: var(--Soft-Red);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    transition: 300ms;
+    cursor: pointer;
+}
+.delete-btn:hover
+{
+    opacity: 0.7;
+}
+.cancel-btn:hover
+{
+    opacity: 0.7;
+}
