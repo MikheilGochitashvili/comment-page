@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/http//MikheilGochitashvili.github.io/CommentPage/static/css/main.784027ab.css",
+    "main.js": "/http//MikheilGochitashvili.github.io/CommentPage/static/js/main.cd63ff73.js",
+    "static/js/787.33d05971.chunk.js": "/http//MikheilGochitashvili.github.io/CommentPage/static/js/787.33d05971.chunk.js",
+    "index.html": "/http//MikheilGochitashvili.github.io/CommentPage/index.html",
+    "static/media/icon-edit.svg": "/http//MikheilGochitashvili.github.io/CommentPage/static/media/icon-edit.b0c7f9ebaec367bd3ae2539df8b55ff9.svg",
+    "static/media/icon-reply.svg": "/http//MikheilGochitashvili.github.io/CommentPage/static/media/icon-reply.bfb4589d45cd96abd45e3b82f7e7bbc6.svg",
+    "static/media/icon-delete.svg": "/http//MikheilGochitashvili.github.io/CommentPage/static/media/icon-delete.86cedbf2e37529f9c8f1f744254059b0.svg",
+    "main.784027ab.css.map": "/http//MikheilGochitashvili.github.io/CommentPage/static/css/main.784027ab.css.map",
+    "main.cd63ff73.js.map": "/http//MikheilGochitashvili.github.io/CommentPage/static/js/main.cd63ff73.js.map",
+    "787.33d05971.chunk.js.map": "/http//MikheilGochitashvili.github.io/CommentPage/static/js/787.33d05971.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.784027ab.css",
+    "static/js/main.cd63ff73.js"
+  ]
+}
