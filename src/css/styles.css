@@ -87,3 +87,11 @@ body
 {
     opacity: 0.6;
 }
+.mobile-send-container
+{
+    display: none;
+}
+.mobile-edit-container
+{
+    display: none;
+}

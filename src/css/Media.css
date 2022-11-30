@@ -55,7 +55,7 @@
     }
     #textarea
     {
-        width: 300px;
+        width: 100%;
     }
     #score-table
     {
@@ -135,5 +135,26 @@
     .changes-div
     {
         display: none;
+    }
+    .send-comment-section
+    {
+        display: none;
+    }
+    .send-comment-user-section
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 7px;
+    }
+    .mobile-send-container
+    {
+        display: block;
+    }
+    .mobile-edit-container
+    {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
     }
 }

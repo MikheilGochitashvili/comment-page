@@ -5,6 +5,9 @@ function SendComment() {
     <div className="comment-container" id="send-comment-container">
       <div className="send-comment-user-section">
         <img src={profileImage} alt="profile" className="profile" />
+        <div className="mobile-send-container">
+        <button className="send-btn">send</button>
+      </div>
       </div>
       <div className="add-comment-section">
         <textarea

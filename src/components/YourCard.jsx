@@ -20,6 +20,7 @@ function YourCard(props) {
       deleteCard.style.display = "none";
     });
   }
+  
   function cancelBtn() {
     console.log("Canceled");
     let overlay = document.querySelector(".overlay-background");
@@ -36,6 +37,16 @@ function YourCard(props) {
             <span>{props.score}</span>
           </div>
           <div className="minus-container"></div>
+        </div>
+        <div className="mobile-edit-container">
+          <div className="delete-container" onClick={clickHandler}>
+                <img src={IconDelete} alt="icon-delete" />
+                <span className="delete-span">Delete</span>
+              </div>
+              <div className="edit-container">
+                <img src={IconEdit} alt="icon-edit" />
+                <span className="edit-span">Edit</span>
+              </div>
         </div>
       </div>
       <div className="your-card-right-section">
